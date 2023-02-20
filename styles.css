@@ -207,17 +207,20 @@ html {
     color: white;
     width: 70%;
     border-radius: 5px;
+    padding: 30px;
+    justify-content: center;
 }
 .call {
     display: flex;
     flex: 4 4 80%;
+    flex-direction: column;
 }
 .calltitle {
+    font-size: 18px;
+    font-weight: 800;
 
 }
-.callmessage{
-
-}
-#actionButton {
-
+button.myButton#actionButton {
+    border: 2px solid white;
+    width: 100px;
 }
